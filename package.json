@@ -2,10 +2,14 @@
   "name": "node-backend",
   "version": "1.0.0",
   "description": "Professional backend",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nodemon src/index.js"
   },
   "author": "Aaditya Pathak",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.4"
+  }
 }
